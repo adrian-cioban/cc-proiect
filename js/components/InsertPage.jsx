@@ -49,7 +49,7 @@ export default function InsertPage() {
               </li>
               <li>
                 <a
-                  href="/insert"
+                  href="/chat"
                   class="block py-2 pl-3 pr-4 text-white rounded md:p-0 md:hover:text-gray-300"
                 >
                   Chat

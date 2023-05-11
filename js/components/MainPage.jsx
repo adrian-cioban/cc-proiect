@@ -38,17 +38,17 @@ export default function MainPage() {
 
   return (
     <section className="bg-gray-100 min-h-screen">
-      <nav class="bg-blue-700 fixed w-full z-20 top-0 left-0 border-b border-gray-200">
-        <div class="max-w-screen-xl flex flex-wrap items-center justify-between p-4">
+      <nav className="bg-blue-700 fixed w-full z-20 top-0 left-0 border-b border-gray-200">
+        <div className="max-w-screen-xl flex flex-wrap items-center justify-between p-4">
           <div
-            class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+            className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
             id="navbar-sticky"
           >
-            <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-blue-700 md:flex-row md:space-x-8 md:mt-0 md:border-0">
+            <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-blue-700 md:flex-row md:space-x-8 md:mt-0 md:border-0">
               <li>
                 <a
                   href="/"
-                  class="block py-2 pl-3 pr-4 text-white rounded md:p-0 underline"
+                  className="block py-2 pl-3 pr-4 text-white rounded md:p-0 underline"
                   aria-current="page"
                 >
                   Home
@@ -57,15 +57,15 @@ export default function MainPage() {
               <li>
                 <a
                   href="/insert"
-                  class="block py-2 pl-3 pr-4 text-white rounded md:p-0 md:hover:text-gray-300"
+                  className="block py-2 pl-3 pr-4 text-white rounded md:p-0 md:hover:text-gray-300"
                 >
                   Insert tasks
                 </a>
               </li>
               <li>
                 <a
-                  href="/insert"
-                  class="block py-2 pl-3 pr-4 text-white rounded md:p-0 md:hover:text-gray-300"
+                  href="/chat"
+                  className="block py-2 pl-3 pr-4 text-white rounded md:p-0 md:hover:text-gray-300"
                 >
                   Chat
                 </a>
@@ -88,10 +88,12 @@ export default function MainPage() {
               key={record._id}
               className="max-w-sm p-6 bg-white border border-gray-200 rounded-xl shadow flex flex-col items-center"
             >
-              <h3 className="mb-2 text-2xl font-bold text-blue-700">
+              <h3 className="mb-2 text-2xl font-bold text-blue-700 text-center">
                 {record.title}
               </h3>
-              <p className="font-normal text-black">{record.description}</p>
+              <p className="font-normal text-black text-center">
+                {record.description}
+              </p>
 
               <button
                 type="button"
