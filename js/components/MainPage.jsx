@@ -50,9 +50,9 @@ export default function MainPage() {
           {records.map((record) => (
             <div
               key={record._id}
-              className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow"
+              className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow flex flex-col items-center"
             >
-              <h3 className="mb-2 text-2xl font-bold text-red-500">
+              <h3 className="mb-2 text-2xl font-bold text-blue-700">
                 {record.title}
               </h3>
               <p className="font-normal text-black">{record.description}</p>
@@ -61,9 +61,9 @@ export default function MainPage() {
                 type="button"
                 onClick={deleteRecord}
                 id={record._id}
-                className="mt-4 text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                className="mt-4 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
               >
-                Delete
+                Mark as completed
               </button>
             </div>
           ))}
