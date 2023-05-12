@@ -61,7 +61,7 @@ function ChatComponent(props) {
           },
           body: JSON.stringify({
             messages: filteredChatHistory,
-            type: "michael_scott",
+            type: "personal_assistant",
           }),
           signal: AbortSignal.timeout(20000),
         });
@@ -120,14 +120,18 @@ function ChatComponent(props) {
           </div>
         </div>
       </nav>
-      <div className={"w-full max-w-[1500px] mx-auto mb-10 bg-gray-100 pt-20"}>
-        <div className={"border rounded-xl border-gray-300 bg-white"}>
+      <div
+        className={
+          "w-full max-w-[1500px] mx-auto mb-10 bg-gray-100 pt-20 flex flex-col items-center"
+        }
+      >
+        <div className={"border rounded-xl border-gray-300 bg-white w-2/4"}>
           <MessageBox chatMessages={chatMessages} />
         </div>
         <input
           id={"chat-input"}
           type={"text"}
-          className="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-4 mt-4"
+          className="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-2/4 p-4 mt-4"
           placeholder="Type something..."
           onKeyDown={handleKeyDown}
         />

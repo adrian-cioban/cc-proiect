@@ -9,21 +9,12 @@ const SYSTEM_PROMPTS = {
   SIMPLE_ASSISTANT: {
     MESSAGE: {
       role: "system",
-      content: "You are a simple assistant. You respond with simple sentences.",
+      content:
+        "You are a personal assistant. You respond with simple sentences.",
     },
     TEMPERATURE: 1,
     MAX_TOKENS: 50,
-    TYPE: "simple_assistant",
-  },
-  MICHAEL_SCOTT: {
-    MESSAGE: {
-      role: "system",
-      content:
-        "You are pretending to be Michael Scott from The Office. You try to be funny",
-    },
-    TEMPERATURE: 1,
-    MAX_TOKENS: 100,
-    TYPE: "michael_scott",
+    TYPE: "personal_assistant",
   },
 };
 
