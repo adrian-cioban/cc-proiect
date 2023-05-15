@@ -45,3 +45,32 @@ Instanțe Amazon EC2
 
 3. Pagina chat care integrează chatbot-ul celor de la OpenAI cu rolul de asistent personal pentru a ajuta utilizatorul in îndeplinirea task-urilor pe care si le-a propus.
    ![image](https://i.imgur.com/Hl3Xzb5.png)
+
+# Publicarea pe AWS
+
+1. Instalare si pornire Nginx
+   ![image](https://i.imgur.com/Zg2hFDO.png)
+   ![image](https://i.imgur.com/Ww12gFa.png)
+
+2. Configurare Nginx
+   ![image](https://i.imgur.com/CVyiP1J.png)
+
+3. Instalare Docker
+   ![image](https://i.imgur.com/LaSQVF0.png)
+   ![image](https://i.imgur.com/h8S1bsQ.png)
+   ![image](https://i.imgur.com/909DIso.png)
+   ![image](https://i.imgur.com/6kU3NSi.png)
+   ![image](https://i.imgur.com/t2CmnYl.png)
+
+4. Asigurare acces sudo pentru comenzile docker
+   ![image](https://i.imgur.com/5zpsnJv.png)
+
+5. Pregătirea proiectului pentru a fi introdus într-o imagine Docker
+   ![image](https://i.imgur.com/mQ1Q42G.png)
+   ![image](https://i.imgur.com/M5STIbs.png)
+
+6. Configurare aplicație pe mașina virtuala
+   ![image](https://i.imgur.com/ulR0s1e.png)
+   ![image](https://i.imgur.com/XO8CPys.png)
+   ![image](https://i.imgur.com/scKmjge.png)
+   ![image](https://i.imgur.com/UHttwh0.png)
