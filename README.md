@@ -1,5 +1,5 @@
-Link video prezentare: https://youtu.be/j4Y3bGZJESc
-Link aplicație Vercel: https://cc-proiect-beryl.vercel.app/
+Link video prezentare: https://youtu.be/j4Y3bGZJESc  
+Link aplicație Vercel: https://cc-proiect-beryl.vercel.app/  
 Link aplicație AWS: http://18.194.3.10/ (închisă pentru a nu genera costuri suplimentare, se poate vedea funcțională in prezentarea video si in pașii descriși pentru publicarea pe aws)
 
 # Introducere
