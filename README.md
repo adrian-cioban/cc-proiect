@@ -11,3 +11,5 @@ Next.js este un framework open-source care facilitează crearea de aplicații we
 ## MongoDB
 
 MongoDB Atlas este un serviciu de baze de date cloud (DBaaS) oferit de compania MongoDB, care oferă o soluție complet gestionată pentru a rula și scala baze de date MongoDB în cloud. Atlas elimină necesitatea de a instala și de a gestiona o bază de date MongoDB propriu-zisă, în schimb oferind utilizatorilor acces la o infrastructură scalabilă și securizată de tip cloud, care este gestionată de echipa de experți de la MongoDB. Sunt oferite o gamă largă de funcții, inclusiv backup-uri automate, scalabilitate, monitorizare în timp real a performanței, patch-uri de securitate și conformitate cu standardul GDPR. De asemenea, Atlas oferă opțiuni de conectare flexibile și poate fi integrat cu o varietate de servicii și instrumente de cloud.
+
+![image](https://prnt.sc/ajbxxKILx93T)
