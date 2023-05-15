@@ -81,10 +81,10 @@ ChatGPT API (Application Programming Interface) este o interfață prin care alt
 
 # Referințe
 
-Documentație Seminar Cloud Computing
-https://nextjs.org/learn/foundations/about-nextjs/what-is-nextjs
-https://www.mongodb.com/basics/mongodb-atlas-tutorial
-https://vercel.com/blog/what-is-vercel
-https://www.techtarget.com/searchaws/definition/Amazon-Elastic-Compute-Cloud-Amazon-EC2
-https://openai.com/blog/introducing-chatgpt-and-whisper-apis
+Documentație Seminar Cloud Computing  
+https://nextjs.org/learn/foundations/about-nextjs/what-is-nextjs  
+https://www.mongodb.com/basics/mongodb-atlas-tutorial  
+https://vercel.com/blog/what-is-vercel  
+https://www.techtarget.com/searchaws/definition/Amazon-Elastic-Compute-Cloud-Amazon-EC2  
+https://openai.com/blog/introducing-chatgpt-and-whisper-apis  
 https://www.makeuseof.com/chatgpt-api-complete-guide/
