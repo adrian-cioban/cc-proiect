@@ -1,38 +1,13 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Link video prezentare: https://youtu.be/j4Y3bGZJESc
+Link aplicație Vercel: https://cc-proiect-beryl.vercel.app/
+Link aplicație AWS: http://18.194.3.10/ (închisă pentru a nu genera costuri suplimentare, se poate vedea funcțională in prezentarea video si in pașii descriși pentru publicarea pe aws)
 
-# Getting Started
+# Introducere
 
-First, run the development server:
+Next.js este un framework open-source care facilitează crearea de aplicații web rapide și performante, cu un focus special pe optimizarea pentru motorul de căutare și îmbunătățirea experienței de utilizare. Aplicația dezvoltata este una de tip REST si are ca scop eficientizarea procesului de organizare și gestionare a task-urilor zilnice, atât pentru utilizare personală, cât și în mediul profesional. In plus, aplicația integrează chatbot-ul celor de la OpenAI, ChatGPT, prin intermediul API-ului oferit de aceștia, pe post de asistent personal cu ideea de a ajuta la îndeplinirea task-urilor.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+# Descriere tehnologii cloud folosite
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## MongoDB
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+MongoDB Atlas este un serviciu de baze de date cloud (DBaaS) oferit de compania MongoDB, care oferă o soluție complet gestionată pentru a rula și scala baze de date MongoDB în cloud. Atlas elimină necesitatea de a instala și de a gestiona o bază de date MongoDB propriu-zisă, în schimb oferind utilizatorilor acces la o infrastructură scalabilă și securizată de tip cloud, care este gestionată de echipa de experți de la MongoDB. Sunt oferite o gamă largă de funcții, inclusiv backup-uri automate, scalabilitate, monitorizare în timp real a performanței, patch-uri de securitate și conformitate cu standardul GDPR. De asemenea, Atlas oferă opțiuni de conectare flexibile și poate fi integrat cu o varietate de servicii și instrumente de cloud.
