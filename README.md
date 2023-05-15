@@ -35,6 +35,10 @@ Serviciile sun utilizate în mod obișnuit de dezvoltatori de software, întrepr
 Instanțe Amazon EC2
 ![image](https://i.imgur.com/VesJxnV.png)
 
+## ChatGPT API
+
+ChatGPT API (Application Programming Interface) este o interfață prin care alte aplicații sau platforme pot sa se conecteze la ChatGPT si sa utilizeze serviciile de procesare ale limbajului natural. Prin intermediul acestui API, dezvoltatorii de software pot sa integreze funcționalitățile de inteligenta artificiala in propriile aplicații, inclusiv capacitatea de a răspunde la întrebări, de a genera texte, de a traduce limbi sau de a analiza sentimente. Prin urmare, ChatGPT API poate fi util pentru o varietate de aplicații, de la chatbot-uri si asistenți virtuali la analiza de date si platforme de cercetare. Este important de menționat ca accesul la ChatGPT API este limitat si necesita autentificarea prin intermediul platformei OpenAI.
+
 # Capturi ecran aplicație
 
 1. Pagina principala a aplicației pe care se afișează toate task-urile salvate in baza de date.
@@ -74,3 +78,13 @@ Instanțe Amazon EC2
    ![image](https://i.imgur.com/XO8CPys.png)
    ![image](https://i.imgur.com/scKmjge.png)
    ![image](https://i.imgur.com/UHttwh0.png)
+
+# Referințe
+
+Documentație Seminar Cloud Computing
+https://nextjs.org/learn/foundations/about-nextjs/what-is-nextjs
+https://www.mongodb.com/basics/mongodb-atlas-tutorial
+https://vercel.com/blog/what-is-vercel
+https://www.techtarget.com/searchaws/definition/Amazon-Elastic-Compute-Cloud-Amazon-EC2
+https://openai.com/blog/introducing-chatgpt-and-whisper-apis
+https://www.makeuseof.com/chatgpt-api-complete-guide/
